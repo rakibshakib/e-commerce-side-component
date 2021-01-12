@@ -1,0 +1,95 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: #333333;
+    overflow-x: hidden;
+    line-height: normal;
+}
+.wholesell-details-page {
+    background: rgba(15, 120, 242, 0.06);
+    margin-bottom: 15px;
+    display: block;
+}
+.wholesell-details-page h3 {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 10px 10px 6px;
+    color: #000;
+}
+.table{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+.seller-info {
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+.content{
+    padding: 23px 30px 6px;
+    text-align: center;
+}
+.content h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.stor-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 0px;
+    position: relative;
+    display: inline-block;
+}
+.verify-link {
+    color: green;
+    position: absolute;
+    right: -25px;
+    top: 0px;
+}
+.total-product {
+    width: 100%;
+    padding: 18px 18px;
+}
+/* .view-stor{
+    background: #0a70cc;
+    border: 1px solid #0a70cc;
+    color: white !important;
+    padding: 2px 70px !important; 
+} */
+.view-store a{
+    text-decoration: none;
+    background: #0a70cc;
+    display: inline-block;
+    text-align: center;
+    color: #fff ;
+    font-size: 12px;
+    padding: 4px 12px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 0 auto 5px;
+    border: 1px solid #0a70cc;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    font-weight: 600;
+}
+.view-store a:hover {
+    background-color: white;
+    color: #0a70cc;
+    text-decoration: none;
+}
